@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Pacifico&family=Roboto:wght@900&family=Young+Serif&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Young Serif', serif;
+    ;
+
+}
+
+h1 {
+    color: rgb(171, 1, 1);
+}
+
+
+
+.banner {
+    background-image: url(./images/901414.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 708px;
+    position: relative;
+}
+
+image {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+
+header {
+    background-color: rgb(30, 30, 30);
+    height: 80px;
+    margin-top: -22px;/
+}
+
+a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: rgb(171, 1, 1) ;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    margin-top: -47px;
+    width: 300px;
+
+}
+
+.log {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(171, 1, 1);
+    border: none;
+    color: azure;
+}
+
+.sign {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: rgb(171, 1, 1) solid;
+    color: azure;
+}
+
+.logo {
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+span {
+    color: azure;
+}
+/* span1{
+    color: rgb(129, 57, 216);
+} */
+
+
+
+
+.exp {
+    margin-left: 50px;
+    padding-top: 25px;
+    position: absolute;
+    top: 150px;
+}
+
+
+#t1 {
+    width: 550px;
+    font-size: 40px;
+}
+
+#t2 {
+    width: 600px;
+    line-height: 30px;
+    color: azure;
+    text-align: justify;
+    font-family: ;
+}
+
+.c1{
+    text-align: center;
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.f1{
+    width: 94%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.f2{
+    text-align: center;
+    margin-top: 0px;
+}
+.f3{
+    text-align: left;
+    padding-left: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.c{
+    width: 25%;
+    height: 370px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 15px;
+    background-color: rgb(19, 18, 18);
+}
+.c:hover{
+    box-shadow: 0 4px 8px 0 rgba(225, 111, 19, 0.2), 0 6px 20px 0 rgba(243, 131, 19, 0.19);
+    transform: scale(1.05);
+}
+
+.check{
+    text-align: center;
+}
+.checked{
+    color: rgb(255, 149, 73);
+   }
+   
+.unchecked{
+    color: azure;
+}
+
+.deliver{
+    background-color: rgb(224, 166, 19);
+    height: 350px;
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.s1{
+    /* position: absolute; */
+}
+
+.s2{
+    position: absolute;
+    right: 80px;
+    top: 1200px;
+    height: 200px;
+    width: 300px;
+    /* background-image: url(./images/pizza-delivery-man-picking-up-pizza-boxes-burgers-isolated-background-giving-thumbs-up-gesture_1368-226941-removebg-preview.png); */
+    
+}
+
+.d1 {
+    margin-left: 40px;
+    padding-top: 25px;
+    width: 30vw;
+    font-size: 40px;
+}
+
+.d2 {
+    margin-left: 40px;
+    width: 40vw;
+    line-height: 30px;
+}
+
+.follow{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.open{
+    display: none;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    a {
+        display: none;
+    }
+
+    .open {
+        position: absolute;
+        top: 13px;
+        right: 40px;
+        display: block;
+    }
+
+    .icons {
+        width: 250px;
+        margin-top: -12px;
+        margin-right: 60px;
+    }
+
+    .log,
+    .sign {
+        height: 35px;
+        width: 95px;
+    }
+    
+    #t1 {
+        width: 500px;
+        font-size: 35px;
+    }
+    
+    #t2 {
+        width: 500px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    
+    #t3 {
+        position: absolute;
+        width: 550px;
+        left: 40px;
+        top: 410px;
+        font-size: 13px;
+    }
+    
+    .exp {
+        position: absolute;
+        left: 40px;
+        top: 100px;
+    }
+
+    .banner{
+        height: 500px;
+    }
+
+    .col{
+        width: 30%;
+}
+
+.d1{
+    padding-top: 20px;
+    width: 42vw;
+}
+.d2{
+    max-width: 40%;
+    width: 80vw;
+    font-size: 15px;
+    line-height: 20px;
+}
+}
+
+
+
+
+
+
+@media (max-width:768px){
+
+    .open {
+        position: absolute;
+        top: 8px;
+        right: 40px;
+        display: block;
+    }
+
+    header{
+        height: 60px;
+    }
+
+    .icons {
+        width: 100px;
+        margin-top: 1px;
+    }
+
+    .log,
+    .sign {
+        display:none;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+    #t1 {
+        font-size: 30px;
+    }
+    
+    #t2 {
+        margin-top: -10px;
+        width: 400px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    
+    #t3 {
+        top: 300px;
+        font-size: 10px;
+    }
+    
+    .exp {
+        top: 80px;
+    }
+
+    .banner{
+        background-size: 100%;
+        height: 400px;
+        overflow-x: hidden;
+    }
+
+    .c1{
+        font-size: 25px;
+    }
+    .gallery{
+        height: 900px;
+    }
+    .col{
+        width: 40%;
+}
+.cards{
+    width: 40%;
+    overflow: hidden;
+}
+.f2{
+    font-size: 17px;
+}
+.deliver{
+    margin-top: -20px;
+}
+.d1{
+    padding-top: 20px;
+    width: 45vw;
+    font-size: 30px;
+}
+.d2{
+    max-width: 50%;
+    width: 80vw;
+    font-size: 13px;
+    line-height: 20px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    padding-top: 50px;
+    margin-right: -40px;
+    display: none;
+}
+}
+
+
+@media (max-width:560px){
+.s2{
+    visibility: hidden;
+}
+.deliver{
+    height: 140px;
+    margin-top: 0px;
+}
+.d1{
+    padding-top: 10px;
+    font-size: 15px;
+    width: 38vw;
+}
+.d2{
+    max-width: 80%;
+    width: 80vw;
+    font-size: 8px;
+    line-height: 10px;
+}
+}
+
+
+@media (max-width:425px) {
+    .open {
+        top: 0px;
+        right: 15px;
+    }
+
+    .icons {
+        width: 60px;
+        margin-top: 9px;
+        margin-right: 35px;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding-top: 15px;
+        margin-left: 20px;
+    }
+    #t1 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    
+    #t2 {
+        display: none;
+    }
+    
+    #t3 {
+        width: 200px;
+        left: 20px;
+        top: 130px;
+    }
+    
+    .exp {
+        left: 15px;
+        top: 60px;
+    }
+
+    .banner{
+        overflow-x: hidden;
+            height: 220px;
+    }
+
+    .c1{
+        font-size: 20px;
+    }
+    .gallery{
+        height: 600px;
+    }
+    .col{
+        width: 45%;
+        height: 250px;
+}
+.cards{
+    width: 45%;
+    overflow: hidden;
+}
+header{
+    height: 50px;
+}
+
+.col{
+    height: 225px;
+}
+.gallery{
+    height: 500px;
+}
+.f1{
+    height: 100px;
+    width: 90%;
+}
+.f2{
+    font-size: 16px;
+}
+.f3{
+    font-size: 7px;
+    padding-left: 10px;
+}
+.span{
+    font-size: small;
+}
+}
+
+
+
+
+
+@media(max-width:375px) {
+    .open {
+        top: -8px;
+    }
+
+    header{
+        height: 50px;
+    }
+
+    .icons {
+        margin-top: 7px;
+    }
+
+    .logo {
+        font-size: 17px;
+       padding-top: 20px;
+    }
+
+    #t3 {
+        top: 120px;
+    }
+    
+    .exp {
+        top: 50px;
+    }
+
+    .banner{
+        height: 200px;
+    }
+    .col{
+        width: 45%;
+        height: 210px;
+    }
+    .cards{
+        width: 45%;
+        overflow: hidden;
+}
+.gallery{
+    height: 480px;
+}
+.f1{
+    width: 88%;
+}
+.f2{
+    font-size: 14px;
+}
+.f3{
+    font-size: 6px;
+    padding-left: 11px;
+    padding-right: 9px;
+}
+}
+
+
+
+
+@media (max-width:320px) {
+    .open {
+        top: -10px;
+        font-size: 15px;
+    }
+
+    .icons {
+        margin-top: 20px;
+    }
+
+    .logo {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    #t1{
+        padding-top: 20px;
+    }
+    
+    #t3 {
+        width: 180px;
+        top: 100px;
+        font-size: 9px;
+        visibility: hidden;
+    }
+    
+    .exp {
+        top: 35px;
+    }
+    .banner{
+        height: 180px;
+    }
+    .c1{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .col{
+        width: 70%;
+        height: 210px;
+    }
+    header{
+        height: 48px;
+    }
+    .gallery{
+        height: 700px;
+    }
+    .f1{
+        width: 88%;
+    }
+    .f2{
+        font-size: 15px;
+    }
+    .f3{
+        font-size: 8px;
+        padding-left: 11px;
+        padding-right: 9px;
+    }
+}
